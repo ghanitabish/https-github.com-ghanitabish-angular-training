@@ -5,16 +5,18 @@ import { EmployeeModule } from './employee/employee.module';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ButtonComponent } from './component/button/button.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FirstmoduleModule,
-    EmployeeModule
+    EmployeeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
