@@ -6,11 +6,15 @@ import { EmployeeModule } from './employee/employee.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ButtonComponent } from './component/button/button.component';
+import { HomeComponent } from './component/home/home.component';
+import { ContactComponent } from './component/contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ButtonComponent
+    ButtonComponent,
+    HomeComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
