@@ -12,7 +12,7 @@ export class ChildComponent implements OnInit {
 
   constructor(public childMessageService: ChildMessageService) {
     this.childMessageService.messageFromChild =
-      'CHILD COMPONENT HAS SET THIS VALUE';
+      'This is a message from child component';
   }
 
   ngOnInit(): void {}

@@ -22,9 +22,9 @@ import { ParentComponent } from './practice/parent/parent.component';
     ContactComponent,
     Router1Component,
     Router2Component,
-    ParentComponent,
     ChildComponent,
-    GrandparentComponent
+    GrandparentComponent,
+    ParentComponent
   ],
   imports: [
     BrowserModule,
