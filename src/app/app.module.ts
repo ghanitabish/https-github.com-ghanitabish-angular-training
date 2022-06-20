@@ -15,6 +15,7 @@ import { GrandparentComponent } from './practice/grandparent/grandparent.compone
 import { ParentComponent } from './practice/parent/parent.component';
 import { PingComponent } from './component/ping/ping.component';
 import { PongComponent } from './component/pong/pong.component';
+import * as fromPosts from './store/posts/posts.reducer';
 
 @NgModule({
   declarations: [
