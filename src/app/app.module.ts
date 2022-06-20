@@ -13,6 +13,8 @@ import { Router2Component } from './routers/router2/router2.component';
 import { ChildComponent } from './practice/child/child.component';
 import { GrandparentComponent } from './practice/grandparent/grandparent.component';
 import { ParentComponent } from './practice/parent/parent.component';
+import { PingComponent } from './component/ping/ping.component';
+import { PongComponent } from './component/pong/pong.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { ParentComponent } from './practice/parent/parent.component';
     Router2Component,
     ChildComponent,
     GrandparentComponent,
-    ParentComponent
+    ParentComponent,
+    PingComponent,
+    PongComponent
   ],
   imports: [
     BrowserModule,
